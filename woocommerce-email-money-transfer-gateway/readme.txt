@@ -1,9 +1,9 @@
 === BLAZING Email Transfer Payment Gateway ===
 Contributors: massoudshakeri
-Tags: WooCommerce, Payment, Gateway, Email Money Transfer, Interac, e-Transfer, Payment, Extension
-Requires at least: WooCommerce 2.2
-Tested up to: 6.0.2
-Stable tag: 2.6.0
+Tags: WooCommerce, Payment, Gateway, Email Money Transfer, Interac
+Requires at least: 4.0
+Tested up to: 6.7.1
+Stable tag: 2.6.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,6 +72,12 @@ You can modify the instructions shown to the buyer the way you would like. But m
 If the buyer mentions the order number in the question, you would know who is sending the fund. The answer sent to the buyer can be found in the order page, as the first order note.
 
 == Changelog ==
+
+= 2.6.2 =
+Addressed plugin submission warnings
+
+= 2.6.1 =
+Deprecated warning for Dynamic Properties addressed
 
 = 2.6.0 =
 Changed class name/function names, to make it unique
@@ -178,6 +184,10 @@ Fixed the Secret Answer sent by Email, to the right one for the ordering user.
 
 = 2.5.0 =
 Sanitized inputs & escaped outputs, and followed WordPress Coding Standards
+
+= 2.6.1 =
+Nothing changed, just Deprecated warning for Dynamic Properties is addressed
+
 
 == Thanks ==
 

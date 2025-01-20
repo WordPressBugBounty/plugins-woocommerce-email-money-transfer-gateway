@@ -2,8 +2,8 @@
 /**
  * Plugin Name: BLAZING Email Transfer Payment Gateway
  * Plugin URI: https://blazingspider.com/plugins/woocommerce-email-money-transfer
- * Description: Many customers prefer to pay by Email Money Transfer, like Interac e-Transfer. This plugin provides a unique and secret question & answer for them.
- * Version: 2.6.0
+ * Description: This plugin provides a unique and secret question & answer for Email Money Transfer, like Interac e-Transfer.
+ * Version: 2.6.2
  * Author: Massoud Shakeri, BlazingSpider
  * Author URI: https://www.blazingspider.com/
  * License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -36,6 +36,13 @@ function betpg_email_transfer_gateway_init() {
 	 * BLAZING Email Money Transfer Gateway Class
 	 */
 	class BETPG_Email_Transfer_Gateway extends WC_Payment_Gateway {
+
+		public $title;
+		public $description;
+		public $instructions;
+		public $enable_for_methods;
+		public $enable_for_virtual;
+		public $emt_order_status;
 
 		/**
 		 * Initialize the class
